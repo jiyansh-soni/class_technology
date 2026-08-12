@@ -1,58 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Chessboard / Checkerboard Pattern</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-color: #f4f4f4;
-      margin: 0;
-    }
-
-    .chessboard {
-      border-collapse: collapse;
-      border: 4px solid #1a1a1a;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .chessboard td {
-      width: 50px;
-      height: 50px;
-    }
-
-    /* Odd rows: Even columns are black, Odd columns are white */
-    .chessboard tr:nth-child(odd) td:nth-child(even) {
-      background-color: #1a1a1a;
-    }
-    .chessboard tr:nth-child(odd) td:nth-child(odd) {
-      background-color: #ffffff;
-    }
-
-    /* Even rows: Odd columns are black, Even columns are white */
-    .chessboard tr:nth-child(even) td:nth-child(odd) {
-      background-color: #1a1a1a;
-    }
-    .chessboard tr:nth-child(even) td:nth-child(even) {
-      background-color: #ffffff;
-    }
-  </style>
+    <title>8x8 Checkerboard</title>
 </head>
 <body>
 
-  <table class="chessboard">
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-  </table>
+<table border="0" cellspacing="0" cellpadding="0" width="400" height="400">
+    
+    <tr>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+    </tr>
+   
+    <tr>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+    </tr>
+    
+    <tr>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+    </tr>
+    
+    <tr>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+    </tr>
+   
+    <tr>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+    </tr>
+    
+    <tr>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+    </tr>
+   
+    <tr>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+    </tr>
+   
+    <tr>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+        <td bgcolor="black">&nbsp;</td>
+        <td bgcolor="white">&nbsp;</td>
+    </tr>
+</table>
 
 </body>
 </html>
